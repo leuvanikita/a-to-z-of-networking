@@ -39,6 +39,8 @@ Port Mapping: NAT to expose containers to host
 
 **What is a Network Namespace?**
 
+“It creates a separate network world — its own interfaces, IPs, and ports — so multiple processes can use the same ports without conflict.”
+
 A namespace is an isolated network stack:
 ```
 Each namespace has its own:
